@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/login.css/master.css">
+    <link rel="stylesheet" href="login.php">
+
+</head>
+<body >
+    <div class="contenedor-registro">
+<div  class="login-box" >
+
+     <form action="registro.php" method="post"   class="form-inline">
+   
+<!-- <img class="avatar" src="/imagenes/logo.png" alt="avatar"> -->
+
+<h1>Registro</h1>
+<label class="lavelRegistro">Nombre</label>
+<input type="text" name="nombre" placeholder="Nombre" class="inputRegistro"  required>
+<label class="lavelRegistro">Apellido Paterno</label>
+<input type="text" name="apellidoP" placeholder="Apellido Paterno" class="inputRegistro" required> 
+<label class="lavelRegistro">Apellido  Materno</label>
+<input type="text" name="apellidoM" placeholder="Apellido Materno" class="inputRegistro" required>
+<label class="lavelRegistro">Correo Electronico</label> 
+<input type="email" name="correo" placeholder="Correo Electronico" class="inputRegistro" required> 
+<label class="lavelRegistro">Contraseña</label>
+<input type="password" name="contraseña" placeholder="Contraseña" class="inputRegistro" required>
+<label class="lavelRegistro">Confirmar Contraseña</label>
+<input type="password" name="contraseña0" placeholder="Contraseña" class="inputRegistro"required> 
+<label class="lavelRegistro">Telefono</label>
+<input type="varchar" name="celular" placeholder="Telefono" class="inputRegistro" required> <br>
+
+<a class="volver" href="/index.html">Regresar</a>
+
+<input  type="submit" value="Registrarse">
+
+</form>
+</div>
+</div>
+</body>
+</html>
