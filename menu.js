@@ -15,7 +15,6 @@ if(subMenu.classList.contains("desplegar")){
     subMenu.classList.remove("desplegar");
     subMenu.removeAttribute("style");
 } else {
-
 subMenu.classList.add("desplegar");
 subMenu.style.height = height + "px";
 }   }
