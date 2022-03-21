@@ -71,18 +71,20 @@ font-size: 1.1em;
     margin-left: 0;
 } 
  .primerFondo {
-    background-image: url("/imagenPrincipal.jpg");
+    background-image: url("imagenPrincipal.jpg");
     background-attachment: fixed;
  background-size: cover;
  height: 47em; 
   }
   .cuadroBlanco {
-    background-color: rgb(241, 245, 248, 0.6);  
-     height: 29em; 
-     width: 40em;   
-     margin-left: 5em;
-     
-    }
+    background-color: rgba(202, 213, 221, 0.6);  
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+  }
 
     .infoBienvenidos {
         text-align: justify;
@@ -94,16 +96,16 @@ font-size: 1.1em;
     }
    
   .segundoFondo {
-    background-image: url("/segundofondoo.jpg");
+    background-image: url("segundofondoo.jpg");
     background-attachment: fixed;
-   height: 35em;
+   height: 90em;
 background-size: cover;
 padding-top: 10px;
   
   }
 
  .fondoMenu {
-    background-image: url("/imagenes/fondoMenu.jpg");
+    background-image: url("imagenes/fondoMenu.jpg");
     background-attachment: fixed;
     background-size: cover;
     height: 300em; 
@@ -147,6 +149,13 @@ font-family:fantasy;
 margin-bottom: 0px;
 
 }
+.info_nosotros{
+    margin-left: auto;
+    font-size: 40px;
+    font-family:fantasy;
+    margin-bottom: 0px;
+    
+    }
 
 .infobienve {
     margin-left: 25px;
