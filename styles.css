@@ -21,7 +21,9 @@ width: 100%;
  .logo {
  display: block;
 margin: auto;
-padding-top:7em;
+padding-top:8.2em;
+width: 400px;
+height: 400px;
  }
 
 .menu, .submenu {
@@ -41,7 +43,7 @@ transition: 0.5s;
 display: block;
 padding: 10px; 
 color: white;
-font-size: 1.1em;
+font-size: 1.5em;
 text-decoration: none;
 }
 
@@ -271,8 +273,19 @@ font-size: 22px;
     
     }
 
-
-
+/* reservaciones */
+.cuadroBlancoR{
+    width: 1090px;
+    height: 590px;
+    background-color: rgba(202, 213, 221, 0.6);  
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 120px;
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
 
 
 @media(min-width:1024px) {
