@@ -21,7 +21,7 @@ width: 100%;
  .logo {
  display: block;
 margin: auto;
-padding-top:10em;
+padding-top:7em;
  }
 
 .menu, .submenu {
@@ -41,7 +41,7 @@ transition: 0.5s;
 display: block;
 padding: 10px; 
 color: white;
-font-size: 1.7em;
+font-size: 1.1em;
 text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ opacity: 35%;
 .submenu .menu__link {
 background-color: rgb(2, 2, 2);
 padding-left: 40px;
-font-size: 1.1em;
+font-size: 0.8em;
 }
 
 .mostrar {
@@ -73,27 +73,46 @@ font-size: 1.1em;
     background-image: url("imagenPrincipal.jpg");
     background-attachment: fixed;
  background-size: cover;
- height: 47em; 
+ height: 34em; 
   }
   .cuadroBlanco {
     background-color: rgba(202, 213, 221, 0.6);  
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin: 20px;
+    margin-left: 90px;
+    margin-top: 40px;
     display: inline-block;
     vertical-align: top;
+    height: 550px;
+    width:570px;
   }
 
     .infoBienvenidos {
         text-align: justify;
-        font-size: 25px;
-        font-family:fantasy; 
-       
-         
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
        
     }
-   
+    .txtSucursal{
+        font-size: 20px;
+        text-align: justify;
+        display: flex;
+        background-color: aqua;
+
+    }
+    .imgSucursal {
+width: 150px;
+height: 150px;
+float: right;
+margin-left: 9px;
+    }
+   .imgBienvenida, .mapa {
+    height: 550px;
+    width: 550px;
+    margin-left: 55px;
+    margin-top: 40px;
+   }
   .segundoFondo {
     background-image: url("segundofondoo.jpg");
     background-attachment: fixed;
@@ -110,9 +129,9 @@ padding-top: 10px;
     height: 300em; 
   }
  
-.txtMenu  {
+.txtTitulos  {
     color: beige;
-font-size: 6em;
+font-size: 4em;
 text-align: center;
 font-family:Georgia, 'Times New Roman', Times, serif;
 } 
@@ -144,14 +163,14 @@ text-align: justify;
 margin-left: 20px;
 font-size: 26px;
 
-font-family:fantasy;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 margin-bottom: 0px;
 
 }
 .info_nosotros{
     margin-left: auto;
     font-size: 40px;
-    font-family:fantasy;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 0px;
     
     }
@@ -171,15 +190,90 @@ margin-bottom: 0px;
 }
 .li{
 
-    font-size:30px;
+    font-size:20px;
     list-style:square;
     font-style: italic;
     margin-bottom: 0px;
+    margin-left: 25px;
 }
  img:hover {
     transform: scale(1.2); 
 
  }
+
+ /* contacto */
+
+
+ .formContacto{
+    width: 550px;
+    margin-left: 155px;
+    background-color: rgb(255, 255, 255,0.6);
+    padding: 25px 20px;
+    }
+    .imgContacto {
+        width: 450px;
+        height: 540px;
+       margin-top: -1900px;
+       margin-left: 755px;
+    }
+    .titleContacto {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+    .labelContacto{
+color:black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-left: 25px;
+font-size: 22px;
+    }
+    .inputContacto {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    border: none;
+    width: 90%;
+    height: 39px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+     }
+    .textareaContacto{
+    margin-bottom: 20px;
+    font-size: 17px;
+    width: 90%;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    margin-left: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+
+    }
+    .btnContacto{
+    background: #31384A;
+    color: #fff;
+    margin-left: 40%;
+        width: 90px;
+    height: 40px;
+  
+    }
+    .inputContacto:hover ,  .textareaContacto:hover{
+        background-color:rgb(231, 222, 222);
+
+    }
+    .btnContacto:hover {
+    cursor: pointer;
+    background-color: blue;
+    
+    }
+
+
+
+
 
 @media(min-width:1024px) {
     .nav-bar {
