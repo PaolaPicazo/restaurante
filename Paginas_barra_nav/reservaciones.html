@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Restaurante</title>
 </head>
@@ -16,7 +17,7 @@
 </html>
 
 
-    <div  class="fondoMenu" alt="">
+    <div class="fondoMenu" alt="" >
     <span class="nav-bar" id="btnMenu"><i class="fas fa-bars"></i> Menú </span> 
         
     <nav class="main-nav">
@@ -63,37 +64,38 @@
     </nav>
     <h1 class="txtTitulos" >Reservaciones</h1>
 
-    <div>
+    <div class="contPrincipal" >
+    <img class="imgReservacion" src="/imagenes/reservacion.png" alt="imagen de reservacíon"  >
 
-      <div class="cuadroBlancoR">
+    <div  class="ContenedorformReserva" >
+        <div class="cuadroBlancoR">
+<form  class="formReserva" action="GET" >
+    <h4 style="font-size: 20px; text-align: center;" >Llene todos los campos para realizar su  reservacion. </h4>
 
-<h2>Tabla de reservaciones</h2>
-<h3>Llene todos los campos para realizar su reservaciones</h3>
- 
-<form action="" >
-
-    <label for="surcur" class="labelSurcursal">Seleccionar Sucursal</label></br>
-    <input class="inputContacto" type="" name"Nombre" placeholder="Nombre"/> </br>
-    <label for="correo" class="labelContacto">Correo</label></br>
-    <input class="inputContacto" type="text" name"Correo" placeholder="Correo"/> </br>
-    <label for="tel" class="labelContacto">Teléfono</label></br>
-    <input class="inputContacto" type="text" name"Teléfono" placeholder="Teléfono"/>   </br>
-    <label for="comentario" class="labelContacto">Comentarios</label></br>
-    <textarea class="textareaContacto" name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>  </br>
-    <input class="btnContacto"  type="button" value="ENVIAR" id="boton"/> </br>
+    <label for="surcur" class="labelReserva">Seleccionar Sucursal</label></br>
+   <select class="seleccionSucursal" name="seleccionSucursal"  id="" size="1" cols="3" >
+       <option value="ninguna" selected></option>
+       <option value="">Las lomas</option>
+       <option class="seleccionSucursal" value="">Sucursal 2</option>
+       <option value="">Sucursal 3</option>
+   </select> </br>
+    <label for="visitantes" class="labelReserva">Numero de Visitantes</label></br>
+    <input class="inputReserva" type="number" name="visitantes" max="20" placeholder=""/> </br>
+    <label for="fecha" >Fecha</label> <br/>
+    <input type="date" class="inputReserva" name="" id=""> <br/>
+    <label for="time" >Horario</label> <br/>
+    <input type="time" class="inputReserva" name="" id=""> <br/>
+    <label for="tel" class="labelReserva">Teléfono</label></br>
+    <input class="inputReserva" type="text" name="Teléfono" placeholder="Teléfono"/>   </br>
+    <label for="comentario" class="labelReserva">Comentarios</label></br>
+    <textarea class="textareaReserva" name="mensaje" placeholder="Escriba aqui indicaciones para su reserva"></textarea>  </br>
+    <input class="btnReserva"  type="button" value="RESERVAR" id="boton"/> </br>
     </form>
-
-
-
-
-
+</div>
+</div>
       </div>  
 
-
-
-
-
-
-
-
     </div>
+     
+    </body>
+    </html>

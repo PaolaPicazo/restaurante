@@ -275,18 +275,53 @@ font-size: 22px;
 
 /* reservaciones */
 .cuadroBlancoR{
-    width: 1090px;
-    height: 590px;
+    width: 4000px;
+    height: 550px;
     background-color: rgba(202, 213, 221, 0.6);  
     display: flex;
-    justify-content: center;
     padding: 20px;
+}
+.contPrincipal{
+    display: flex;
     margin-left: 120px;
-    margin-top: 40px;
-    display: inline-block;
-    vertical-align: top;
+}
+.imgReservacion {
+width: 500px;
+height: 550px;
+padding-left: 50px;
 }
 
+.ContenedorformReserva{
+width: 450px;
+display: flex;
+
+}
+.formReserva {
+ width: 300px;  
+ height: 450px; 
+ text-align: justify;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin-top: 25px;
+ /* background-color: aquamarine; */
+margin-left: 40px;
+}
+.labelReserva {
+font-size: 20px;
+
+}
+option, select, text {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    width: 300px;  
+}
+.inputReserva 
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    width: 300px;
+}
 
 @media(min-width:1024px) {
     .nav-bar {
